@@ -49,6 +49,7 @@ A instrução UPDATE é usada para modificar os valores existentes dos registros
          SET column1 = value1, column2 = value2, ...
          WHERE condition; 
 9. DELETE:
+    
 A instrução DELETE é usada para excluir os registros existentes presentes na tabela do banco de dados.
 
          DELETE FROM table_name where condition;
