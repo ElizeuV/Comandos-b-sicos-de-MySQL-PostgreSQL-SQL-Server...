@@ -2,54 +2,45 @@
 Comandos básicos MySQL, PostgreSQL...
 
 1. CREATE
-CREATE command is used to create a table, schema or an index.
+O comando CREATE é usado para criar uma tabela, esquema ou índice.
 
-         Syntax:
                   CREATE TABLE table_name (
                          column1 datatype,
                          column2 datatype,
                          ....);
 2. ALTER
-ALTER command is used to add, modify or delete columns or constraints from the database table.
+O comando ALTER é usado para adicionar, modificar ou excluir colunas ou restrições da tabela do banco de dados.
 
-         Syntax
          ALTER TABLE Table_name ADD column_name datatype;
 3. TRUNCATE:
-TRUNCATE command is used to delete the data present in the table but this will not delete the table.
+O comando TRUNCATE é usado para excluir os dados presentes na tabela, mas isso não excluirá a tabela.
 
-         Syntax
          TRUNCATE table table_name;
 4. DROP
-DROP command is used to delete the table along with its data.
+O comando DROP é usado para excluir a tabela junto com seus dados.
 
-         Syntax
          DROP TABLE table_name;
 5. RENAME
-RENAME command is used to rename the table name.
+O comando RENAME é usado para renomear o nome da tabela.
 
-         Syntax
          ALTER TABLE table_name1 RENAME to new_table_name1; 
 6. INSERT
-INSERT Statement is used to insert new records into the database table.
+A instrução INSERT é usada para inserir novos registros na tabela do banco de dados.
 
-         Syntax
          INSERT INTO table_name (column1, column2, column3, ...) 
          VALUES (value1, value2, value3, ...);
 7. SELECT
-Select statement is used to select data from database tables.
+A instrução Select é usada para selecionar dados das tabelas do banco de dados.
 
-         Syntax:
          SELECT column1, column2, ...
          FROM table_name; 
 8. UPDATE
-UPDATE statement is used to modify the existing values of records present in the database table.
+A instrução UPDATE é usada para modificar os valores existentes dos registros presentes na tabela do banco de dados.
 
-         Syntax
          UPDATE table_name
          SET column1 = value1, column2 = value2, ...
          WHERE condition; 
 9. DELETE
-DELETE statement is used to delete the existing records present in the database table.
+A instrução DELETE é usada para excluir os registros existentes presentes na tabela do banco de dados.
 
-         Syntax
          DELETE FROM table_name where condition;
