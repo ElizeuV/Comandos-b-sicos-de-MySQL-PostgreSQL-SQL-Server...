@@ -35,12 +35,25 @@ A instrução INSERT é usada para inserir novos registros na tabela do banco de
 
          INSERT INTO table_name (column1, column2, column3, ...) 
          VALUES (value1, value2, value3, ...);
+
+         or
+
+         INSERT INTO table_name VALUES
+         
+       --COLUNA1  --COLUNA2   --COLUNA3   
+         (value1,    value2,    value3), --LINHA 1
+         (value1,    value2,    value3); --LINHA 2
+     
 7. SELECT:
     
 A instrução Select é usada para selecionar dados das tabelas do banco de dados.
 
          SELECT column1, column2, ...
          FROM table_name; 
+
+         OR 
+
+         SELECT * FROM TABLE_NAME 
 8. UPDATE:
     
 A instrução UPDATE é usada para modificar os valores existentes dos registros presentes na tabela do banco de dados.
