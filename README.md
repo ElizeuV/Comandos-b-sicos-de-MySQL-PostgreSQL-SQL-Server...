@@ -5,10 +5,10 @@ Comandos básicos de MySQL, PostgreSQL, SQL Server...
    
 O comando CREATE é usado para criar uma tabela, esquema ou índice.
 
-                  CREATE TABLE table_name (
-                         column1 datatype,
-                         column2 datatype,
-                         ....);
+        CREATE TABLE table_name (
+        column1 datatype,
+        column2 datatype,
+         ...);
 2. ALTER:
    
 O comando ALTER é usado para adicionar, modificar ou excluir colunas ou restrições da tabela do banco de dados.
