@@ -1,5 +1,5 @@
 # SQL
-Comandos básicos MySQL, PostgreSQL, SQL Server...
+Comandos básicos de MySQL, PostgreSQL, SQL Server...
 
 1. CREATE:
    
